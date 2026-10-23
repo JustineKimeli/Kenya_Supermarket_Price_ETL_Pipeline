@@ -23,6 +23,7 @@ The project demonstrates how to work with multiple data sources, transform data 
 - CSV and JSON — Input data formats.
 
 # Project Structure
+```
 OOP/
 ├── data/
 │   ├── kenya_supermarket_prices.csv
@@ -32,7 +33,7 @@ OOP/
 │       └── data_loader.py
 ├── .venv/
 └── README.md
-
+```
 
 The structure above represents the main files used in the project. Additional configuration files, modules, and tests may be added as the project grows.
 
