@@ -41,17 +41,18 @@ The structure above represents the main files used in the project. Additional co
 
 The pipeline consists of three main stages.
 
-1. **Extract**
+**1. Extract**
 
 The pipeline reads data from two sources:
 
 Naivas: Extracts supermarket price data from kenya_supermarket_prices.csv.
 Carrefour: Extracts supermarket price data from kenya_supermarket_prices.json.
-2. **Transform**
+
+**2. Transform**
 
 The extracted data is processed before loading. This stage can include cleaning values, standardizing column names, converting data types, and preparing records for database insertion.
 
-3. **Load**
+**3. Load**
 
 SQLAlchemy connects to PostgreSQL using the Psycopg driver and loads the transformed records into the database.
 
